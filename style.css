@@ -9,9 +9,9 @@
 }
 .main-header {
   background: #fff8f3;
-  background-image: url(./images/header_bg.png);
+  background-image: url("./images/header_bg.png"), url("./images/developer.png");
   background-repeat: no-repeat;
-  background-position: bottom right;
+  background-position: bottom right, top 48px left 35px;
 }
 .nav-header {
   display: flex;
@@ -52,7 +52,7 @@ nav a {
   font-size: 20px;
   font-weight: 700;
   background-color: #fd6e0a;
-  padding: 18px 35px 19px 36px;
+  padding: 18px 35px 19px 23px;
   border-radius: 5px;
   border: 0;
 }
@@ -71,7 +71,7 @@ nav a {
   font-size: 20px;
   font-weight: 700;
   background-color: #fd6e0a;
-  padding: 19px 17px 18px 51px;
+  padding: 19px 17px 18px 17px;
   border-radius: 5px;
   border: 0;
   margin-top: 30px;
@@ -82,7 +82,7 @@ nav a {
   font-size: 20px;
   font-weight: 700;
   background-color: #fff8f3;
-  padding: 19px 23px 18px 58px;
+  padding: 19px 23px 18px 24px;
   border-radius: 5px;
   border: 1px solid #fd6e0a;
   margin: 30px 0 0 30px;
@@ -241,7 +241,7 @@ nav a {
   font-size: 20px;
   font-weight: 700;
   background-color: #fd6e0a;
-  padding: 19px 17px 18px 51px;
+  padding: 19px 17px 18px 17px;
   border-radius: 5px;
   border: 0;
   margin: 0 700px 113px 700px;
@@ -331,7 +331,7 @@ nav a {
   margin-bottom: 130px;
 }
 .message {
-  padding: 130px 230px 0 130px;
+  padding: 130px 230px 0 105px;
 }
 .connect {
   padding: 130px 0 0 230px;
